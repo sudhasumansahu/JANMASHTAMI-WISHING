@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +13,7 @@ body{
   /* background: linear-gradient(124deg, #BD4937, #e81d1d, #80100B, #a65b5b, #D64127, #DB3535, red, #b5042d, #7a041f);*/
    background-size: 100% 100%;
    background-image: url("BG1.gif");
-
+   
 
 background-attachment:fixed;
 
@@ -186,15 +185,22 @@ position: fixed;
 .poster-image{
 
 /*border: 5mm ridge rgba(0, 0, 255, .6); */
-outline: 0.5rem solid #012169;
-box-shadow: 0 0 0 1.5rem #0d98ba;
+
+ border: 10px solid peacock transparent;
+
+outline: 0.5rem dotted skyblue;
+/*box-shadow: 0 0 0 1.5rem #0d98ba;*/
  /*border-radius: 50px;*/
 
 /*width:100%;*/
 
- width: 600px;
-  height: 300px;
+/* width: 600px;*/
+ /* height: 300px; */
   border-radius: 50%;
+
+ border-radius: 50%;
+    width: 600px;
+    height: 500px;
 
 }
 
@@ -230,7 +236,13 @@ font-family: 'Caprasimo', cursive;
 } */
 
 
-
+.responsive{
+max-width:100%;
+height:auto;
+margin:150px;
+display:flex;
+position:fixed;
+}
 
 
 </style>
@@ -244,7 +256,7 @@ font-family: 'Caprasimo', cursive;
 <div class="poster">
 
 
-<img class="poster-image"src="mygif.gif">
+<img class="poster-image"src="mygif.gif" class="responsive" width="600";height="400";>
 
 <!--<marquee behavior="alternate" direction="">
 <h1 class="word">WISHING YOU</h1>
